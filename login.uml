@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_4XmRgIR8EeWNuIyIe9ecVA" name="NewModel">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_M3ljwIR9EeWNuIyIe9ecVA" name="User"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_04AIsIR9EeWNuIyIe9ecVA" name="LogIn">
+    <include xmi:id="_B_EKsIUwEeWNuIyIe9ecVA" addition="_vy0csIUvEeWNuIyIe9ecVA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_FUyrQIR-EeWNuIyIe9ecVA" memberEnd="_FVBUwIR-EeWNuIyIe9ecVA _FVB70IR-EeWNuIyIe9ecVA">
+    <ownedEnd xmi:id="_FVBUwIR-EeWNuIyIe9ecVA" type="_M3ljwIR9EeWNuIyIe9ecVA" association="_FUyrQIR-EeWNuIyIe9ecVA"/>
+    <ownedEnd xmi:id="_FVB70IR-EeWNuIyIe9ecVA" type="_04AIsIR9EeWNuIyIe9ecVA" association="_FUyrQIR-EeWNuIyIe9ecVA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_M3QXIIR-EeWNuIyIe9ecVA" name="VerficationManager"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_XRFRsIR-EeWNuIyIe9ecVA" memberEnd="_XRFRsYR-EeWNuIyIe9ecVA _XRF4wIR-EeWNuIyIe9ecVA">
+    <ownedEnd xmi:id="_XRFRsYR-EeWNuIyIe9ecVA" type="_M3QXIIR-EeWNuIyIe9ecVA" association="_XRFRsIR-EeWNuIyIe9ecVA"/>
+    <ownedEnd xmi:id="_XRF4wIR-EeWNuIyIe9ecVA" type="_04AIsIR9EeWNuIyIe9ecVA" association="_XRFRsIR-EeWNuIyIe9ecVA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_PRmNMIUvEeWNuIyIe9ecVA" name="Not member">
+    <extend xmi:id="_U8AyUIUvEeWNuIyIe9ecVA" extendedCase="_04AIsIR9EeWNuIyIe9ecVA"/>
+    <include xmi:id="_ETIfEIUwEeWNuIyIe9ecVA" addition="_vy0csIUvEeWNuIyIe9ecVA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_W3Pv8IUvEeWNuIyIe9ecVA" name="UseCase3"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_eFPnsIUvEeWNuIyIe9ecVA" name="Login"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_pt7iEIUvEeWNuIyIe9ecVA" name="UseCase4"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vy0csIUvEeWNuIyIe9ecVA" name="Verification manager"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_MvNeEIUxEeWNuIyIe9ecVA" name="Security"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QKGQkIUxEeWNuIyIe9ecVA" memberEnd="_QKGQkYUxEeWNuIyIe9ecVA _QKG3oIUxEeWNuIyIe9ecVA">
+    <ownedEnd xmi:id="_QKGQkYUxEeWNuIyIe9ecVA" type="_MvNeEIUxEeWNuIyIe9ecVA" association="_QKGQkIUxEeWNuIyIe9ecVA"/>
+    <ownedEnd xmi:id="_QKG3oIUxEeWNuIyIe9ecVA" type="_vy0csIUvEeWNuIyIe9ecVA" association="_QKGQkIUxEeWNuIyIe9ecVA"/>
+  </packagedElement>
+</uml:Model>
